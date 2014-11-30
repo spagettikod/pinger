@@ -1,0 +1,16 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Authentication": {
+    "Bucket": "spagettikod-dockercfg",
+    "Key": ".dockercfg"
+  },
+  "Image": {
+    "Name": "spagettikod/pinger",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "8080"
+    }
+  ]
+}
