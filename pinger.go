@@ -9,7 +9,7 @@ import (
 
 func pingHandler(w http.ResponseWriter, r *http.Request) {
 	env := r.URL.Path[1:]
-	fmt.Fprintf(w, "Version 1.1.1: Hello there, my time is %v\n\nValue of environment variable %v is %v", time.Now(), env, os.Getenv(env))
+	fmt.Fprintf(w, "Version 1.1.2: Hello there, my time is %v\n\nValue of environment variable %v is %v", time.Now(), env, os.Getenv(env))
 }
 
 func main() {

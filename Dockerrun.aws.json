@@ -5,7 +5,7 @@
     "Key": ".dockercfg"
   },
   "Image": {
-    "Name": "spagettikod/pinger",
+    "Name": "spagettikod/pinger:v1.1-latest",
     "Update": "true"
   },
   "Ports": [
